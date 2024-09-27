@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 100vh; /* Высота шапки на всю высоту экрана */
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    background-color: #007bff;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar {
+    justify-content: center; /* Центрирование навигационной панели */
+}
+
+.navbar-brand {
+    margin-left: auto; /* Центрирование "Мое имя" в навигации */
+    margin-right: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.card-img-top {
+    width: 100%; /* Ширина изображения будет соответствовать ширине карточки */
+    height: 250px; /* Задаем фиксированную высоту изображения */
+    object-fit: cover; /* Изображение будет обрезано по краям, чтобы вписаться в заданные размеры */
+}
